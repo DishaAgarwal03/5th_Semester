@@ -1,0 +1,22 @@
+Add comments
+There shouldn't be any warnings
+Always check for error whenever using an API eg: socket(), etc.
+Don't use gets() or puts()
+change port number if connection denied
+
+always check if IP address is correct if nothing happens when both the programs are run
+
+include arpa/inet.h for inet_address
+include unistd.h for read(),write(),close()
+
+use sizeof() not strlen() in write() function
+
+//////////////////////////////////////////////////////////////////////////////////////
+Lab 1,2 in the lab final
+Lab 4 odt from lab5 submission, change q4 1- eth0 to enp2s0
+Lab 5 no change
+Lab 6 R2 config 197 not 192
+Lab 7 no changes from teams submission 
+
+Check lab 3,8,9
+//////////////////////////////////////////////////////////////////////////////////////
