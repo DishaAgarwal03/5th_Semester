@@ -1,0 +1,89 @@
+strstr(string, substr); returns pointer to substr in string
+fgetc(stdin); gets input from keyboard; waits till press enter
+
+chdir(dir)
+struct stat statbuf
+struct dirent *entry
+lstat(entry->d_name, &statbuf)
+S_ISDIR(statbuf.st_mode)
+%*s
+printf("%*s%s/\n",depth,"",entry->d_name);
+
+getcwd(cwd, sizeof(cwd));
+
+if (remove(entry->d_name) == 0)
+                printf("Deleted successfully\n");
+
+
+LAB 1:
+
+memset function to clear a character array
+
+int fd=open(args[j],O_RDONLY)
+out=open("outfile.txt",O_WRONLY|O_CREAT,S_IRUSR|S_IWUSR);
+read(in,&c,1)
+
+#include<unistd.h>
+#include<sys/stat.h>
+#include<fcntl.h>
+
+if(k==20)
+{
+	fgetc(stdin);    // for input from keyboard - waiting for input
+	k=0;
+}
+
+
+
+
+
+Process/CPU scheduling:
+FCFS NP
+SJFS P NP
+Priority P NP
+RR P
+Multilevel P
+Multilevel feedback P
+
+disk scheduling:
+FCFS
+SSTF
+SCAN
+C-SCAN
+LOOK
+C-LOOK
+
+deadlock:
+Banker's algo
+Banker's algo + multithreading
+
+Page replacement:
+FIFO
+LRU - normal, second chance, optimal, approx
+
+Buddy
+Multilevel feedback P
+
+
+Page....?   DONE
+Best Fit
+Worst Fit
+Next Fit
+First Fit
+
+named pipes:
+producer-consumer   DONE
+readers-writers      LEFT
+
+memset(buffer, ‘\0’, sizeof(buffer));
+fgets(buffer, BUFSIZ, stdin);
+
+srand((unsigned int)getpid());
+
+semaphore:
+producer-consumer
+first readers-writers (reader Priority)
+Dining philosopher  DO
+sleeping barber
+
+
