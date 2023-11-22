@@ -1,0 +1,42 @@
+-> remove single line and multi line comments
+-> replace multiple blank spaces and tabs by single space
+-> discard preprocessor directives
+-> recognize all keywords and replace by uppercase
+-> display function names + return type + number of arguments
+
+-> LA:
+-> arithmetic, logical and relational operators
+-> special symbols
+-> keywords
+-> numerical constants
+-> string literals
+-> identifiers
+
+-> PARSER:
+
+-> other batch program
+
+
+
+-> TOMORROW: symbol table, flex, bison
+-> left recursion rules, left factoring rules
+-> first, follow
+-> see the multiple values in error thingy
+-> with linked lists -> LA
+-> multiline comments removal
+-> isdigit, etc
+-> str(c)?
+
+-> memset(token, '\0', sizeof(token));  -> to empty a character array
+
+-> printf("Enter input: ");
+	scanf("%[^\n]s",stat);
+	yy_scan_buffer(stat,sizeof(stat));
+	yylex();
+
+-> 	yyin=fopen("input.txt","r");
+	yylex();
+-> fprintf(yyout,"%s",yytext);
+-> {fprintf(yyout,"%c",yytext[0]+32);}
+
+-> AST

@@ -1,0 +1,11 @@
+| Index | Lexeme name | Return type |   Data type |  Token type | Number of args|
+|_______|_____________|_____________|_____________|_____________|_______________|
+|     1 |        main |        void |             |        func |              0|
+|     2 |       fopen |             |             |        func |              0|
+|     3 |          fp |             |             |         var |             -1|
+|     4 |           c |             |         int |         var |             -1|
+|     5 |        getc |             |             |        func |              1|
+|     6 |         EOF |             |             |         var |             -1|
+|     7 |     putchar |             |             |        func |              1|
+|     8 |      printf |             |             |        func |              3|
+|     9 |      fclose |             |             |        func |              1|

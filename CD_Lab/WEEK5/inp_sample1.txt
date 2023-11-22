@@ -1,0 +1,10 @@
+hello
+how are youy
+/*
+$ flex sample1.l
+$ cc lex.yy.c
+$ ./a.out
+hello 
+how are you
+Ctrl+D
+*/
